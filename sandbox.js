@@ -56,10 +56,10 @@ fullName(fName, lName)
 let laName = "Ipkiss"
 fullName("Stanley", laName)
 
-// Reminder: creating a function does not execute the function or its enclosed logic
+// →→→→ Reminder: creating a function does not execute the function or its enclosed logic
     // you much call the function if you want it to do its job.
 
-// Reminder: invoking a function does not automatically retain what it returns in a variable
+// →→→→ Reminder: invoking a function does not automatically retain what it returns in a variable
     // meaning the above invocations to trigger the logic to execute, as well as return the expected string
     // but that string is not logged to the console or assigned to a global variable that can be used later
         // alter the 3 lines calling the function to:
@@ -68,17 +68,121 @@ fullName("Stanley", laName)
             // save one returned string to a variable and then log that variable to the console.
 
 // && looks for the first falsy
-console.log(0 && true)
+// console.log(0 && true)
 // || looks for the first truthy
-console.log(0 || NaN || undefined )
+// console.log(0 || NaN || undefined )
 
 // == vs ===
 // == topically checks if they are the same
 // === checks if they are the same, and have the same datatype
 let userInput = "6"
-console.log(userInput == "name" )
+// console.log(userInput == "name" )
 
 /*
   Located in the comparing.txt file, there is a deeper dive into == vs ===
 */
+
+
+
+/* ---------------------------------------
+  FUNDAMENTALS 2
+--------------------------------------- */
+
+// console.log(typeof [1,2,3])
+
+// console.log(Array.isArray(1))
+
+// let Array = {
+//   isArray: function...
+// }
+
+// console.log(!true) // true flips to false
+
+// let amI = false
+// if (amI == true){
+//   console.log("Jordan is Grounded")
+// }
+
+
+/* →→→→
+How to quickly comment a line
+
+Windows → ctrl + /
+Mac → cmd + /
+*/
+
+
+/* →→→→ Highlight what you want to change, then hit
+Windows → ctrl + d
+Mac → cmd + d
+*/
+
+// let stuff =  2
+
+// stuff = stuff *3
+// stuff += 5 // thing = thing + 5
+
+// console.log(stuff)
+
+// let glob = "Matt Rocks!"
+// let dude
+// let gettinIT
+
+// function whoRocks(){
+
+  // console.log("glog → "+glob)
+  // dude = "Ben is gunna get this"
+
+  // function whatThu(){
+    // gettinIT = "on the way"
+    // glob="Way inside"
+    // console.log("dude → "+dude)
+    // console.log("glog → "+glob)
+  // }
+  // glob = "so strings"
+  // whatThu()
+  // console.log ("gettinIT → "+gettinIT)
+  // console.log(glob)
+// }
+// console.log("outside → "+ gettinIT)
+// function benJamin(){
+//   console.log(dude)
+// }
+// whatThu()
+// console.log(dude)
+// whoRocks()
+// benJamin()
+
+
+// let globa = "This is still global"
+
+// function lessGlobal(){
+  // Reminder: NEVER create a function inside a function
+    // It is silly
+
+  // globa = "Functionally Scoped"
+  // console.log(globa)
+
+  // function internal(){
+  //   globa = "Way inside"
+  //   console.log(globa)
+  // }
+
+    // let internal = () => {
+    //   globa = "Way inside"
+    //   console.log(globa)
+    // }
+
+//   console.log("I am here → " + globa)
+//   internal()
+//   globa = "End of the function"
+// }
+
+// console.log(globa)
+// lessGlobal()
+// console.log("Final Console → "+globa)
+
+
+// →→→→ Want to move a whole line, well for 5.99 you can
+// hold alt and use the up or down arrow to move it
 

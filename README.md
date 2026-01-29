@@ -14,3 +14,9 @@ I will be using this exact repository in the fundamentals live demos. And the co
 
 * comparing.txt
   discusses == vs ===
+
+## Things to ctl+f in the sandbox.js file
+(↓below is a living section that will be updated periodically↓)
+  * →→→→
+  * Reminder
+  * Note
